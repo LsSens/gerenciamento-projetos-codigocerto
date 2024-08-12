@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerenciamento de Projetos</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Gerenciamento de Projetos</h1>
+    </header>
+    <main>
+        <section id="project-form">
+            <h2>Adicionar Projeto</h2>
+            <form id="add-project-form">
+                <label for="title">Título:</label>
+                <input type="text" id="title" name="title" required>
+
+                <label for="description">Descrição:</label>
+                <textarea id="description" name="description" required></textarea>
+
+                <button type="submit">Adicionar</button>
+            </form>
+        </section>
+
+        <section id="project-list">
+            <h2>Projetos</h2>
+            <ul id="projects">
+                <!-- Lista de projetos será carregada aqui -->
+            </ul>
+        </section>
+    </main>
+    <script src="/js/app.js"></script>
+</body>
+</html>
